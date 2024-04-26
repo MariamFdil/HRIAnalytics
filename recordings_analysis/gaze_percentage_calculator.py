@@ -13,8 +13,8 @@ def calculate_gaze_percentage(csv_path):
    # data = pd.read_csv(csv_path, encoding='ISO-8859-1')
 
     # Define thresholds for looking directly ahead
-    horizontal_threshold = 0.1  # in radians
-    vertical_threshold = 0.1    # in radians
+    horizontal_threshold = 0.05  # in radians
+    vertical_threshold = 0.25    # in radians
 
     # Calculate moments when the person is looking directly ahead
     looking_directly_ahead = (abs(data['gaze_angle_x']) < horizontal_threshold) & (abs(data['gaze_angle_y']) < vertical_threshold)
