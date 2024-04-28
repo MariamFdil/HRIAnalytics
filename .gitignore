@@ -1,1 +1,7 @@
 /home/mariamfdil/HRIAnalytics/recordings
+/home/mariamfdil/HRIAnalytics/recordings/bottom_view/*.avi
+/home/mariamfdil/HRIAnalytics/recordings/bottom_view/*.hog
+/home/mariamfdil/HRIAnalytics/recordings/bottom_view/*.csv
+/home/mariamfdil/HRIAnalytics/recordings/upper_view/*.avi
+/home/mariamfdil/HRIAnalytics/recordings/upper_view/*.hog
+/home/mariamfdil/HRIAnalytics/recordings/upper_view/*.csv
