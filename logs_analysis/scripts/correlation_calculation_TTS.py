@@ -21,9 +21,9 @@ print(f"La corrélation entre la longueur du texte et le temps de traitement est
 # Visualisation
 plt.figure(figsize=(12, 6))  # TODO : ajustement de la taille du graphique
 sns.scatterplot(data=df, x='Text Length', y='Processing Time (s)', s=100)  # TODO : ajustement taille de points
-plt.title('Relation entre la Longueur de la Phrase et le Temps de Traitement', fontsize=16)
-plt.xlabel('Longueur du Texte (nombre de caractères)', fontsize=14)
-plt.ylabel('Temps de Traitement (s)', fontsize=14)
+plt.title('Correlation between lenght of the sentence and its processing time (TTS', fontsize=16)
+plt.xlabel('Sentence length (number of characters)', fontsize=14)
+plt.ylabel('Porcessing time (s)', fontsize=14)
 plt.grid(True) 
 
 # Ligne de régression
