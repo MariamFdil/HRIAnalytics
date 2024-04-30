@@ -12,7 +12,7 @@ df = pd.read_csv(args.file_path)
 
 
 sample_rate = 16000
-df['Audio Length (s)'] = df['Timestamp (s)'] / sample_rate
+df['Audio Length (s)'] = df['Total_samples_count'] / sample_rate
 print(df['Audio Length (s)'])
 correlation = df['Processing Time (s)'].corr(df['Audio Length (s)'])
 print(f"La corrélation entre la durée de l'audio et le temps de traitement est : {correlation}")
