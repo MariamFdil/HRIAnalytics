@@ -24,9 +24,9 @@ def automate_analysis(folder_path):
     results_filename = f"{folder_name}_results.txt"
     
     csv_files = {
-        'Text To Speech': 'tts_results',
-        'Speech To Text': 'stt_results',
-        'GPT Response': 'gptresponse',  
+        'Text To Speech': f"{folder_name}_tts",
+        'Speech To Text': f"{folder_name}_stt",
+        'GPT Response': f"{folder_name}_gptresponse",  
     }
 
     with open(os.path.join(folder_path, results_filename), 'w') as result_file:
